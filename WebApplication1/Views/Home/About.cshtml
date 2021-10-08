@@ -1,19 +1,16 @@
-﻿@functions {
-    private string Test()
-    {
-        //nint i = 1;
+﻿@using WebApplication1.Controllers
 
-        return "null";
-    }
-
-}
 @{
     ViewBag.Title = "About";
+    //const string s2 = "VALUE";
+    //const string s = $"{s2}";
+    A b;
+    b = new A();
+    A a = new A();
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
 <p>Use this area to provide additional information.
 
-    @(Test())
     </p>

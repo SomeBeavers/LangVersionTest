@@ -16,7 +16,9 @@ namespace WebApplication1.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            A a = new();
+            //const string s2 = "VALUE";
+            //const string s = $"{s2}";
+            //A a = new();
             return View();
         }
 

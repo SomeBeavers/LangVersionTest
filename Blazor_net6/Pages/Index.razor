@@ -1,0 +1,22 @@
+﻿@page "/"
+
+@code {
+    private string Test()
+    {
+        A a = new();
+        return "Index";
+    }
+
+    private class A
+    {
+    }
+
+}
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!@(Test())</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />

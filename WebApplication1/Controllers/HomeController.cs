@@ -30,7 +30,10 @@ namespace WebApplication1.Controllers
         }
     }
 
-    public class A
+    public class A:IDisposable
     {
+        public void Dispose()
+        {
+        }
     }
 }

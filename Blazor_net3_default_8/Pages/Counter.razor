@@ -1,0 +1,36 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    public static void Main2()
+    {
+        Console.WriteLine("Hello, World!");
+
+    //// 7.0
+    //    void LocalFunction()
+    //    {
+    //    }
+
+    //// 8
+    //    using var file = new System.IO.StreamWriter("WriteLines2.txt");
+
+    //// 9
+    //    List<string> l = new();
+
+    //// 10
+    //    const string s2 = "VALUE";
+    //    const string s1 = $"{s2}";
+    }
+}
